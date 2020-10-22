@@ -1,0 +1,172 @@
+.book {
+  display: flex;
+  width: 100%;
+  background-color: #191919;
+  padding-top: 5rem;
+}
+
+.bookDescription {
+  width: 50%;
+}
+
+.bookDescription h1 {
+  font-size: 2.1rem;
+  font-weight: 500;
+}
+
+.bookDescription p {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 300;
+}
+
+section.bookContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.bookContent {
+  box-sizing: border-box;
+  background-color: white;
+  height: 80%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+
+}
+
+.topbar {
+  height: 10px;
+  width: 80%;
+  background-color: #a12d1d;
+}
+
+.bookContent img {
+  position: relative;
+  bottom: -40px;
+  height: 40vh;
+  max-width: 100%;
+  margin-top: 20px;
+  z-index: 1;
+}
+
+.bookContent h2 {
+  background-color: #a12d1d;
+  padding: 10px;
+  width: 80%;
+  text-align: center;
+  color: white;
+  font-size: 2.8rem;
+  font-weight: 400;
+  overflow-y: hidden;
+  font-family: 'Times New Roman', Verdana, Georgia;
+
+}
+
+.bookContent h3 i {
+  font-weight: 300;
+  color: rgba(0,0,0,0.8);
+  font-size: 0.9rem;
+  font-family: 'Times New Roman', Verdana, Georgia;
+}
+
+#essential {
+  margin-left: 8%;
+  align-self: flex-start;
+  padding: 0;
+}
+
+#oreilly {
+  position: relative;
+  align-self: flex-start;
+  margin-left: 8%;
+  margin-top: 50px;
+}
+
+.bookContainer, .bookDescription {
+  padding-left: 5rem;
+}
+
+.editBook {
+  margin: 0 25%;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.editBook button {
+  align-self: flex-start;
+  background:  #0f6daf;
+  border: .05rem solid #0f6daf;
+  border-radius: .1rem;
+  padding: .35rem .6rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  width: 50%;
+}
+
+.editBook button:hover {
+  cursor: pointer;
+  background: #0a4a77;
+  border-color: #094169;
+  color: #fff;
+}
+
+.editBook button:nth-child(1) {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.editBook button:nth-child(2) {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.editBook input {
+  box-sizing: border-box;
+  width: 50%;
+  padding-right: 1rem;
+  padding-left: 0.2rem;
+}
+
+.editBook div select  {
+  appearance: none;
+}
+
+.editBook div select, .editBook  input {
+  box-sizing: border-box;
+  height: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: .1rem;
+  color: #fff;
+  width: 80%;
+
+}
+
+.editing label {
+  width: 100%;
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+div.editing {
+  margin-top: 3rem;
+  display: inline-block;
+  width: 50%;
+}
+
+div.inputs {
+  width: 100%;
+  display: block;
+}
+
+.bookContent {
+  min-height: 70vh;
+  max-width: 500px;
+}

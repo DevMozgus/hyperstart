@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  overflow-x: hidden; 
+  scroll-behavior: smooth;
+}
+
+body {
+  color: rgba(200, 200, 200, 1);
+  text-rendering: optimizeLegibility;
+}
+
+header {
+  width: 100vw;
+  background-color: #111;
+  height: 3rem;
+}
+
+.fullpage {
+  box-sizing: border-box;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+div.fullpage.book {
+  height: auto;
+  padding-bottom: 4rem;
+}
+
+div.bookContainer, div.bookContent, div.editBook {
+  height: auto;
+}
+
+@media screen and (max-width: 1400px) {
+  .cards, .introduction {
+    width: 90%;
+    padding: 1rem;
+  }
+  .header {
+    padding: 0 1rem;
+  }
+  .landing {
+    background-color:rgba(0,78,127,0.4);
+    background-blend-mode: soft-light;
+    background-position: 100px 0;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  .fullpage {
+    height: auto;
+  }
+  .landing {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-position: -100px 0;
+  }
+  .introduction, .cards {
+    margin-top: 3vh;
+  }
+  .introduction h1 {
+    line-height: 2.4rem;
+  }
+  .introduction h2 {
+    line-height: 2rem;
+  }
+  .cards h3 {
+    font-size: 1.6rem;
+    margin-bottom: 2.3rem;
+  }
+  div.fullpage.book {
+    flex-direction: column-reverse;
+  }
+  .bookContainer {
+    padding: 0;
+    margin-bottom: 6rem;
+  }
+  .bookDescription {
+    width: 80%;
+  }
+  .bookContent, .editBook {
+    width: 70%;
+  }
+  .editBook {
+    margin: auto;
+  }
+  .projects section.project {
+    width: 80%;
+  } 
+
+}
+
+@media screen and (max-width: 550px) {
+  .landing, #fullpage {
+    height: auto;
+  }
+  nav button {
+    display: none;
+  }
+  nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .introduction, .cards {
+    width: 97%;
+  }
+  .introduction {
+    box-sizing: border-box;
+    height: 90vh;
+    margin: 0;
+  }
+  .introduction h1 {
+    margin-bottom: 1rem;
+    line-height: 2.5rem;
+  }
+  .cards {
+    margin-bottom: 3rem;
+  }
+  .cards div {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .bookContent, .editBook {
+    width: 90%;
+  }
+  .bookDescription {
+    width: 90%;
+    padding: 1rem;
+  }
+}

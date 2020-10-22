@@ -1,0 +1,84 @@
+.landing {
+  height: 100%;
+  display: flex;
+  background-image: url("../../img/Hyperapp_banner.jpg");
+}
+
+.cards, .introduction {
+  width: 50%;
+  text-align: center;
+  padding: 9rem;
+}
+
+.introduction h1 {
+  color: #fff;
+}
+
+.introduction h2 {
+  padding-top: 15px;
+  font-weight: 200;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cards h3 {
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #fff;
+
+}
+
+.cards div {
+  box-sizing: border-box;
+  width: 48%;
+  padding: 30px 20px;
+}
+
+.cards div h4 {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.cards div p {
+  margin-bottom: 10px;
+  font-weight: 300;
+  line-height: 1.6rem;
+}
+
+.cards div.active {
+  background-color: #000;
+  border: 2px solid #1f97ec;
+  color: #fff;
+  transition: .3s ease-in;
+}
+
+.cards div.active h4 {
+  color: #0f6daf;
+}
+
+.cards div.notActive {
+  border: 2px solid #919191;
+}
+
+.cards div.notActive:hover {
+  cursor: pointer;
+  background-color: rgba(0,0,0,0.1);
+}
+

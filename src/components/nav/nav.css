@@ -1,0 +1,52 @@
+.header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-size: 1rem;
+}
+
+.header a.nijo {
+  cursor: pointer;
+  font-family: Avantgarde, Helvetica, Arial;
+}
+
+nav a {
+  margin-right: .4rem;
+  background:  #0f6daf;
+  border: .05rem solid #0f6daf;
+  border-radius: .1rem;
+  padding: .35rem .6rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  cursor: pointer;
+  background: #0a4a77;
+  border-color: #094169;
+  color: #fff;
+}
+
+nav button {
+  background:  #7e7e7e;
+  border: .05rem solid #323232;
+  border-radius: .1rem;
+  padding: .35rem .6rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+}
+
+
+nav button:hover {
+  background: #2d2d2d;
+  border-color: #252525;
+  color: #fff;
+  cursor: pointer;
+}
+
