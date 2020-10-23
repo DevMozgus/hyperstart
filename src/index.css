@@ -32,7 +32,7 @@ div.bookContainer, div.bookContent, div.editBook {
   height: auto;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1450px) {
   .cards, .introduction {
     width: 90%;
     padding: 1rem;

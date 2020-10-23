@@ -29,13 +29,17 @@ const init = {
   ],
   titles: [
     "Learning Hyperapp",
-    "Making Much Work",
+    "How To Push To Prod",
     "Creating Such App",
-    "Programming Big Unique",
-    "Creating Cool Stuff",
+    "Arrays begin at 1",
+    "Ignoring Deprecation Warnings",
     "Replacing AI With PHP",
     "Hacking A Toaster",
-    "CTRL C, THEN CTRL V"
+    "CTRL C, THEN CTRL V",
+    "Parsing HTML Using Regex",
+    "Visualizing Hell With JS",
+    "Works On My Machine",
+    "'); DROP TABLE animals;-- "
   ],
   currentImage: {
     image: image0,

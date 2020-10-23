@@ -1,7 +1,7 @@
 .landing {
   height: 100%;
   display: flex;
-  background-image: url("../../img/Hyperapp_banner.jpg");
+  background-image: url("../../img/whatTheHellIsThis.jpg");
 }
 
 .cards, .introduction {
@@ -63,10 +63,15 @@
 }
 
 .cards div.active {
-  background-color: #000;
+  background-color: rgba(10,10,10,0.9);
   border: 2px solid #1f97ec;
   color: #fff;
   transition: .3s ease-in;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .cards div.active h4 {
@@ -75,6 +80,15 @@
 
 .cards div.notActive {
   border: 2px solid #919191;
+  display: flex;
+  min-height: 300px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cards div.notActive p {
+  display: none;
 }
 
 .cards div.notActive:hover {

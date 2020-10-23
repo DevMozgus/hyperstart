@@ -9,7 +9,7 @@ const nav = (props) => {
   <div class="header">
     <a class="nijo"><b>Nicola</b>Urlicic</a>
     <nav>
-    <a>View My Work</a>
+    <a href="#work" >View My Work</a>
     <button onclick=${activateSike}>${props.sike}</button>
     </nav>
   </div>
