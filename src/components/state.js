@@ -45,7 +45,7 @@ const init = {
     image: image0,
     title: "Pig"
   },
-  currentTitle: "Creating Cool Stuff",
+  currentTitle: "Hiring Nicola",
   sike: "Sign In",
   activeCard: 1
 }

@@ -19,7 +19,7 @@ const projects = () => {
     </div>
     </section>
     <section class="project project2">
-    <h2>Graphql & React: Book Log</h2>
+    <h2>GraphQL & React: Book Log</h2>
     <img src=${gql} />
     <div class="links">
     <a href="https://github.com/DevMozgus/merngBooks" >Source Code</a>
@@ -35,7 +35,7 @@ const projects = () => {
     </section>
     <section class="contact">
     <h3>Still haven't had enough?</h3>
-    <a>Contact Me</a>
+    <a href=" mailto:nurlicic@gmail.com?subject=Welcome%20To%20Unsourced%20Digital&body=Look%2C%20I%20know%20you're%20busy%2C%20so%20I've%20pre-written%20the%20acceptance%20email%20for%20you%20-%20just%20click%20the%20button%20below%0D%0A%0D%0A%0D%0AHey%20Nicola%2C%0D%0A%0D%0Alove%20what%20you've%20done.%20Let's%20meet%20for%20some%20coffee.%0D%0A%0D%0ABest%20Regards%2C%0D%0AUnsourced%20Digital%0D%0A%0D%0A%0D%0AP.S.%20We're%20not%20suing%20you%20for%20copyright%20infringement " >Contact Me</a>
     </section>
   </div>
   `

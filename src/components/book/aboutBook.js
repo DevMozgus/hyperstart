@@ -6,7 +6,7 @@ export const aboutBook = (props) => {
   return html`
   <section class="bookDescription">
     <div>
-    <h1>Is That An O'Reilly Book Generator?</h1>
+    <h1>Now That's A Book I Would Read</h1>
     <p>That's right, after extensively researching hyperapp and the hyperstart's single blog post (RIP Blog), I decided to steal your entire work.</p>
     <p><b>I created this entire site using hyperapp.</b></p>
     <p>However, that wasn't enough. Within this stroke of genius, I also found hyperapp examples you hadn't implemented yet. Naturally, I had to steal that too.</p>

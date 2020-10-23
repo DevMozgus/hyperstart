@@ -28,7 +28,7 @@ export const editCover = (props) => {
     </div>
     <div class="editing">
     <label>Change Image:</label>
-    <select onchange=${generateImage}>
+    <select  onchange=${generateImage}>
     ${
       props.images.map((image, index) => {
         return html`
