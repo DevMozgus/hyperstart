@@ -1,6 +1,8 @@
 
 # Hyperstart Rip Off
-No copyright infringement here... please don't sue me.
+A copy of [hyperstart.io](https://hyperstart.io) that I made as application to unsourced digital.
+
+Absolutely no copyright infringement here... please don't sue me.
 
 ### Tech used
   - parcel

@@ -5,7 +5,7 @@ import { activeCardOne, activeCardTwo } from "./landingActions"
 
 const landing = (props) => {
   return html`
-  <div class="landing">
+  <div id="landing" class="landing">
   <div class="introduction">
     <h1>CODE JAVASCRIPT APPS FASTER USING NICOLA</h1>
     <h2>Nicola allows you to create awesome websites with all the modern frameworks. A completely self taught web developer fueled by coffee.</h2>
